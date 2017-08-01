@@ -5,7 +5,7 @@
     "sharepointFarmName": {
       "type": "string",
       "metadata": {
-        "description": "The name of the Sharepoint farm"
+        "description": "DTech SharePoint Development"
       },
       "defaultValue": "spfarm"
     },
@@ -21,7 +21,7 @@
       "metadata": {
         "description": "The name of the Virtual Network to Create"
       },
-      "defaultValue": "spfarmVNET"
+      "defaultValue": "DTecDevVNET"
     },
     "virtualNetworkAddressRange": {
       "type": "string",
@@ -75,28 +75,28 @@
       "metadata": {
         "description": "The size of the AD VM Created"
       },
-      "defaultValue": "Standard_DS2"
+      "defaultValue": "Standard_A5"
     },
     "sqlVMSize": {
       "type": "string",
       "metadata": {
         "description": "The size of the SQL VM Created"
       },
-      "defaultValue": "Standard_DS2"
+      "defaultValue": "Standard_A5"
     },
     "spVMSize": {
       "type": "string",
       "metadata": {
         "description": "The size of the VM Created"
       },
-      "defaultValue": "Standard_DS3"
+      "defaultValue": "Standard_A5"
     },
     "domainName": {
       "type": "string",
       "metadata": {
         "description": "The FQDN of the AD Domain created "
       },
-      "defaultValue": "contoso.local"
+      "defaultValue": "dtechbpmsqa.com"
     },
     "sqlServerServiceAccountUserName": {
       "type": "string",
@@ -116,7 +116,7 @@
       "metadata": {
         "description": "The Sharepoint Setup account name"
       },
-      "defaultValue": "sp_setup"
+      "defaultValue": "svcspsetup"
     },
     "sharePointSetupUserAccountPassword": {
       "type": "securestring",
@@ -129,7 +129,7 @@
       "metadata": {
         "description": "The Sharepoint Farm account name"
       },
-      "defaultValue": "sp_farm"
+      "defaultValue": "svcspfarm"
     },
     "sharePointFarmAccountPassword": {
       "type": "securestring",
@@ -205,7 +205,7 @@
       "metadata": {
         "description": "The type of the Storage Account created"
       },
-      "defaultValue": "Premium_LRS"
+      "defaultValue": "Standard_LRS"
     }
   },
   "variables": {

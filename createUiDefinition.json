@@ -4,9 +4,9 @@
   "parameters": {
     "basics": [
       {
-        "name": "sharePointFarmName",
+        "name": "DTechSharePointDev",
         "type": "Microsoft.Common.TextBox",
-        "label": "SharePoint farm name",
+        "label": "DTech SharePoint",
         "defaultValue": "spfarm",
         "constraints": {
           "required": true,

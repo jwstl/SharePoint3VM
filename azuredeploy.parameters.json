@@ -3,49 +3,49 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccountType": {
-            "value": "Premium_LRS"
+            "value": "Standard_LRS"
         },
         "adminUsername": {
-            "value": "admin123"
+            "value": "dtech"
         },
         "adminPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "DTPass.01234"
         },
         "sqlServerServiceAccountUserName": {
-            "value": "admin123sql"
+            "value": "sqladmin"
         },
         "sqlServerServiceAccountPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "DTPass.01234"
         },
         "sharePointSetupUserAccountUserName": {
-            "value": "admin123sp"
+            "value": "svcspadmin"
         },
         "sharePointSetupUserAccountPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "DTPass.01234"
         },
         "sharePointFarmAccountPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "DTPass.01234"
         },
         "sharePointFarmPassphrasePassword": {
-            "value": "GEN-PASSWORD"
+            "value": "DTPass.01234"
         },
         "sppublicIPAddressName": {
             "value": "sppublicIP"
         },
         "spDNSPrefix": {
-            "value": "GEN-UNIQUE"
+            "value": "sp"
         },
         "storageAccountNamePrefix": {
-            "value": "GEN-UNIQUE"
+            "value": "str"
         },
          "adVMSize": {
-            "value": "Standard_DS1"
+            "value": "Standard_A5"
         },
         "sqlVMSize": {
-            "value": "Standard_DS3"
+            "value": "Standard_A5"
         },
         "spVMSize": {
-            "value": "Standard_DS3"
+            "value": "Standard_A5"
         }
     }
 }

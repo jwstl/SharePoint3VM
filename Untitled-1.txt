@@ -1,0 +1,31 @@
+DTPass.01234!
+
+OPERATION IDDD2CCDB2B6CA89EE
+TRACKING ID159e6203-2e21-44c2-8b1e-ced4fb0906e2
+STATUSConflict
+PROVISIONING STATEFailed
+TIMESTAMP7/21/2017, 8:14:22 AM
+DURATION6 minutes 1 second
+TYPEMicrosoft.Resources/deployments
+RESOURCE ID/subscriptions/9b41e1c5-0f8f-40cc-b9b5-891e1b8ba4cf/resourceGroups/DTechK2QA/providers/Microsoft.Resources/deployments/ProvisioningSharepointVM
+STATUSMESSAGE{
+  "status": "Failed",
+  "error": {
+    "code": "ResourceDeploymentFailure",
+    "message": "The resource operation completed with terminal provisioning state 'Failed'.",
+    "details": [
+      {
+        "code": "DeploymentFailed",
+        "message": "At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/arm-debug for usage details.",
+        "details": [
+          {
+            "code": "Conflict",
+            "message": "{\r\n  \"status\": \"Failed\",\r\n  \"error\": {\r\n    \"code\": \"ResourceDeploymentFailure\",\r\n    \"message\": \"The resource operation completed with terminal provisioning state 'Failed'.\",\r\n    \"details\": [\r\n      {\r\n        \"code\": \"VMExtensionProvisioningError\",\r\n        \"message\": \"VM has reported a failure when processing extension 'ConfigureSPServer'. Error message: \\\"The DSC Extension received an incorrect input: An error occurred while executing script or module 'PrepareSharePointServer.ps1':  At C:\\\\Packages\\\\Plugins\\\\Microsoft.Powershell.DSC\\\\2.26.1.0\\\\DSCWork\\\\PrepareSharePointServer.ps1.0\\\\PrepareSharePointServer.ps1:16 char:80\\r\\n+     Import-DscResource -ModuleName xComputerManagement, xDisk,cDisk,xNetworking\\r\\n+                                                                                ~\\nUnable to load module 'xComputerManagement': module not found.\\r\\n\\r\\nAt C:\\\\Packages\\\\Plugins\\\\Microsoft.Powershell.DSC\\\\2.26.1.0\\\\DSCWork\\\\PrepareSharePointServer.ps1.0\\\\PrepareSharePointServer.ps1:6 char:1\\r\\n+ {\\r\\n+ ~\\nMissing closing '}' in statement block.\\r\\n\\r\\nAt C:\\\\Packages\\\\Plugins\\\\Microsoft.Powershell.DSC\\\\2.26.1.0\\\\DSCWork\\\\PrepareSharePointServer.ps1.0\\\\PrepareSharePointServer.ps1:53 char:1\\r\\n+ }\\r\\n+ ~\\nUnexpected token '}' in expression or statement.\\r\\n\\r\\n.\\nPlease correct the input and retry executing the extension.\\\".\"\r\n      }\r\n    ]\r\n  }\r\n}"
+          }
+        ]
+      }
+    ]
+  }
+}
+RESOURCE
+ProvisioningSharepointVM
